@@ -1,0 +1,6 @@
+ssh -X your-ubuntu-instance-ip
+sudo apt update
+sudo apt install xfce4
+sudo apt install xrdp
+sudo service xrdp start
+
