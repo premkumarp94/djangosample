@@ -8,6 +8,7 @@ def get_current_datetime_string():
 # Call the function to get the current date and time in "yyyymmddhhmmss" format
 current_datetime_string = get_current_datetime_string()
 
+
 def run_command(command):
     try:
         result = subprocess.run(command, shell=True, check=True)
