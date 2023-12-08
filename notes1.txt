@@ -1,0 +1,7 @@
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+sudo nano /etc/apache2/sites-available/yourproject.conf
+sudo a2ensite yourproject
+sudo service apache2 restart
+
